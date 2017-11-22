@@ -103,7 +103,7 @@ header a:hover {
 }
 
 header a:focus {
-	color:#3498db;
+	color:#5f5959;
 	text-decoration:none;
 }
 
@@ -143,7 +143,7 @@ header.sticky {
 	padding-right:15px;
 	padding-top:10px;
 	cursor:pointer;
-	color:#3498db;
+	color:#5f5959;
 }
 
 #mobile-menu-close span {
@@ -209,7 +209,7 @@ footer {
 }
 
 .social a:hover {
-	color:#3498db;
+	color:#5f5959;
 }
 
 .btn-rounded-white {
@@ -222,7 +222,7 @@ footer {
 }
 
 .btn-rounded-white:hover {
-	color:#3498db;
+	color:#5f5959;
 	background:#fff;
 	text-decoration:none;
 }
@@ -252,7 +252,7 @@ footer {
 	left:0;
 	right:0;
 	margin:0 auto;
-	background:#3498db;
+	background:#5f5959;
 }
 
 .background-alt {
@@ -384,6 +384,11 @@ footer {
 	max-width:1000px;
 }
 
+#experience-timeline ul {
+	color:#74808a;
+	font-size:.8em;
+}
+
 #experience-timeline:before {
 	position:absolute;
 	content:'';
@@ -488,8 +493,9 @@ footer {
 	max-width:700px;
 	margin:0 auto 30px;
 	padding:15px;
-	border:1px solid #dcd9d9;
+	border: 1px solid #dcd9d9;
 	text-align:left;
+	float: right;
 }
 
 .education-block h3 {
@@ -515,6 +521,10 @@ footer {
 	margin:0;
 	color:#74808a;
 	font-size:.9em;
+}
+
+.education-date {
+	float: right;
 }
 
 .education-block ul {
